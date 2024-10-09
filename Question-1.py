@@ -32,7 +32,7 @@ def signal_handler(user,instance,**kwargs):
 
 
 #a instance of the user is saved which will make a signal to be sent starting the signal handler
-user = User(test = testuser)
+user = User(username = testuser)
 user.save()
 
 #this statement will only be printed after the the first two statements are printed with some delay 
